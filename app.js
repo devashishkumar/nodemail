@@ -17,8 +17,8 @@ async function main() {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "outlook email", // generated ethereal user
-      pass: "outlook password", // generated ethereal password
+      user: "outlook email",
+      pass: "outlook password",
     },
     tls: {
       ciphers: 'SSLv3'
